@@ -9,7 +9,6 @@ var addTwoPromises = async function(promise1, promise2) {
         return values[0] + values[1];
     });
 };
-
 /**
 * addTwoPromises(Promise.resolve(2), Promise.resolve(2))
 *   .then(console.log); // 4
